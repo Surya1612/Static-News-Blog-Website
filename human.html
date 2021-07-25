@@ -1,0 +1,369 @@
+<html>
+  <head>
+    
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<style type="text/css">
+nav ul li{
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+	color: black;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.nav-item a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display:block;
+  height: 3px;
+  left: 50%;
+  background: red;
+  transition: all 0.3s ease-in-out;
+  width: 0;
+}
+.nav-item a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+.fa{
+  color: grey;
+  font-size:22px;
+  margin-top: 5px;
+
+}
+
+.fa-facebook:hover {
+  opacity: 0.7;
+  color: blue;
+}
+.fa-instagram:hover {
+  opacity: 0.7;
+  color: #8a3ab9;
+}
+.fa-twitter:hover {
+  opacity: 0.7;
+  color: deepskyblue;
+}
+#c1{
+  margin-left: 15px;
+   cursor: pointer;
+}
+#c2{
+  margin-right: 100px;
+  color: grey;
+  font-size: xx-small;
+}
+
+.recent-news{
+  display: flex;
+}
+.recent-news img{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+.recent-news p{
+margin-top: 15px;
+}
+footer{
+  display:-webkit-flex;
+  display:-moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 50px;
+  color: #fff;
+  background-color: #011c39;
+}
+
+.footer-left{
+  margin-right: 1.25em;
+  margin-bottom: 2em;
+}
+footer h2{
+  font-weight: 600;
+  font-size: 17px;
+}
+.footer ul{
+  list-style: none;
+  padding-left: 0;
+}
+.footer li{
+  line-height: 2em;
+}
+
+.footer-right{
+    display:-webkit-flex;
+  display:-moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-flow: row wrap;
+}
+.footer-right > *{
+  flex: 1 50px;
+  margin-right: 1em;
+}
+
+.footer-bottom{
+  text-align: center;
+  color: #999;
+  padding-top: 50px;
+}
+.footer-left{
+  padding-right: 20%;
+  color: #999;
+}
+
+  .footer-left{
+    flex: 1 0px;
+  }
+  .footer-right{
+    flex: 2 0px;
+  }
+  @media only screen and (max-width: 768px) {
+  #a13 img{
+  width: 450px;
+}
+#a13 h3{
+  width: 400px;
+  font-size: 15px;
+}
+.recent-news p{
+width: 250px;
+}
+#b1 h6{
+
+width: 10px;
+display: inline;
+}
+}
+</style>
+</head>
+<body>
+  <header style="background-color: white; height: 40px;">
+      <div class="row">
+        <div class="col" id="b1">
+    <h6 style="margin-top:5px;margin-left: 200px; color: red;text-shadow: 2px 2px 2px #CCCCCC;font-size:18px;">NOTABLE  :<p style="display: inline;color: grey;margin-left: 20px;text-shadow: none;font-size: xx-small;cursor: pointer;">Joe Manchin</p>
+
+       <p style="display: inline;color: grey;margin-left: 20px;text-shadow: none;font-size: xx-small;cursor: pointer;">Zyklon B</p>
+
+       <p style="display: inline;color: grey;margin-left: 20px;text-shadow: none;font-size: xx-small;cursor: pointer;">Pose</p>
+
+       <p style="display: inline;color: grey;margin-left: 20px;text-shadow: none;font-size: xx-small;-small;cursor: pointer;">NYC Mayor</p>
+
+       <p style="display: inline;color: grey;margin-left: 20px;text-shadow: none;font-size: xx-small;-small;cursor: pointer;">Beekeeper TikTok</p>
+
+       <p style="display: inline;color: grey;margin-left: 20px;text-shadow: none;font-size:xx-small;-small;cursor: pointer;">El Salvado</p>
+
+       <p style="display: inline;color: grey;margin-left: 20px;text-shadow: none;font-size: xx-small;-small;cursor: pointer;">El Salvado</p>
+
+       <p  style="display: inline;color: grey;margin-left: 20px;text-shadow: none;font-size: x-small;-small;cursor: pointer;margin-left:90px;color: red;"> <a href="sub.html" style="color: red;cursor: pointer;text-decoration: underline;">Subscribe</a></p>
+  <p style="display: inline;color: grey;margin-left: 20px;text-shadow: none;font-size: x-small;-small;cursor: pointer;color: black;"><a href="login.html">Sign In</a></p></h6>
+       
+
+  </div>
+
+    </header>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background: #2c3e50;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">VISION WEEKLY</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav" >
+        <li id="c1" class="nav-item " >
+          <a id="active"class="nav-link " aria-current="page" href="news.html"  style="color:white;">News & Politics</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="culture.html" style="color: white;">Culture</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tech.html" style="color: white;">Technology</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="buss.html" style="color: white;">Bussiness</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="human.html" style="color: red;text-shadow: 1px 1px 1px white;">Human Interest</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pod.html" style="color: white;" >Podcasts</a>
+        </li>
+
+      </ul>
+  <div class="form-outline">
+    <input type="search" id="form1" class="form-control" placeholder="search"  style="height: 25px;width: 130px;margin-top: 5px;font-size: x-small;margin-left: 10px;" />
+    <label class="form-label" for="form1">Search</label>
+  </div>
+  <button type="button" class="btn btn-default" style="margin-bottom: 40px;width: 40px;height: 35px;"><i class="fa fa-search" style="color: white;font-size: 16px;margin-bottom: 5px;"></i></button>
+</div>
+    </div>
+</nav>
+
+
+<header style="background-color: white;">
+  <div class="row">
+    <div class="col">
+<p style="font-style: italic;font-size: xx-small;margin-top: 10px;margin-left: 10px;cursor: pointer;">LOOKING FOR SOMEONE TO STING</p>
+</div>
+
+<div class="col" style="margin-left: 500px;margin-top: 10px;">
+<p id="c2">FOLLOW US<i class="fa fa-facebook" id="c1"></i><i class="fa fa-twitter" aria-hidden="true"id="c1"></i><i class="fa fa-instagram" aria-hidden="true"  id="c1"></i></p>
+</div>
+</div>
+</header>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col" id="a13">
+      <div class="box" style="width: 500px;height: 590px;border: 1px solid white;margin-top: 60px;">
+        <h3 style="font-weight:900;font-size: 43px;cursor: pointer;font-family:serif;">HUMAN INTEREST</h3>
+          <li style="display:inline;padding:5px;cursor: pointer;font-size: 16px;color: darkviolet;font-weight: bold;">Family</li>
+          <li style="display:inline;padding:5px;cursor: pointer;font-size: 16px;color: darkviolet;font-weight: bold;">Work</li>
+            <li style="display:inline;padding:5px;cursor: pointer;font-size: 16px;color: darkviolet;font-weight: bold;">Downtime</li>
+            <li style="display:inline;padding:5px;cursor: pointer;font-size: 16px;color: darkviolet;font-weight: bold;">Care and Feeding</li>
+            <li style="display:inline;padding:5px;cursor: pointer;font-size: 16px;color: darkviolet;font-weight: bold;">Science</li>
+        <img src="24.jpeg" width="499px" style="cursor: pointer;margin-top: 10px;">
+
+<h3 style="font-weight:bolder;font-size: 26px;cursor: pointer;color:darkred;font-family: Times New Roman, Times, serif;margin-top: 10px;"><span style="font-size: xx-small;font-weight: normal;color: black;">AYMANN ISMAIL</span><br>My Quest to Give My Muslim Baby a Name That Won’t Make His Life Harder</h3>
+
+
+
+</div>
+</div>
+
+<div class="col">
+  <div class="box" style="width: 500px;height: 590px;border: 1px solid white;margin-top: 60px;margin-right: 80px;">
+<p style="font-weight: bolder;font-size: 15px;cursor: pointer;margin-top: 110px;"><span style="font-size: xx-small;font-weight: normal;">KAREN HAN</span><br> No, the Biden Administration Isn’t Betray <br> Its Support for LGBTQ Rights</p>
+
+
+<p style="font-weight: bolder;font-size: 15px;cursor: pointer;"><span style="font-size: xx-small;font-weight: normal;">MARY WILSON</span><br>One Year After the BLM Protests,  New <br>York Is Close to Electing a Cop</p>
+
+
+<p style="font-weight: bolder;font-size: 15px;cursor: pointer;"><span style="font-size: xx-small;font-weight: normal;">RICHARD L. HASEN</span><br>Stephen Breyer’s Apparent Retirement  <br>Plan Will Backfire</p>
+
+
+<p style="font-weight: bolder;font-size: 15px;cursor: pointer;"><span style="font-size: xx-small;font-weight: normal;">ELLIOT HANNON</span><br>Biden’s Press Plane Gets Grounded Due  <br>to an Engine Full of Cicadas</p>
+
+
+<p style="font-weight: bolder;font-size: 15px;cursor: pointer;"><span style="font-size: xx-small;font-weight: normal;">WILLIAM SALETAN</span><br>Americans Are Dangerously Divided on <br> the Insurrection</p>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="box" style="width: 750px;height: 1035px;border: 1px solid white;margin-top: 60px;">
+    <h3 style="font-weight:900;font-size: 33px;margin-left: 5px;font-family: Times New Roman, Times, serif;" >Recently in <span style="color:red;">Human Interest</span></h3>
+    <hr style="display: block; margin-before: 0.5em; margin-after: 0.5em; margin-start: auto; margin-end: auto; border-width: 3px;">
+    <div class="recent-news">
+      <img src="14.jpeg" style="cursor:pointer;">
+
+      <p style="font-size:small;font-weight: bold;cursor: pointer;"> <span style="font-size: xx-small;font-weight: normal;">SLOW BURN JUNE 09, 2021 5:15 PM</span><br>How Did the Press Get the Iraq Story So Wrong?</p>
+</div>
+    <div class="recent-news">
+      <img src="15.jpeg" style="cursor:pointer;">
+      <p  style="font-size:small;font-weight: bold;cursor: pointer;"><span style="font-size: xx-small;font-weight: normal;">MARK JOSEPH STERN JUNE 09, 2021 2:45 PM</span><br>
+No, the Biden Administration Isn't Betraying Its Support for LGBTQ Rights</p>
+</div>
+    <div class="recent-news">
+      <img src="16.jpeg" style="cursor:pointer;">
+      <p  style="font-size:small;font-weight: bold;cursor: pointer;"><span style="font-size: xx-small;font-weight: normal;">MARY WILSON JUNE 09, 2021 1:37 PM</span><br>
+One Year After the BLM Protests, New York Is Close to Electing a Cop</p>
+</div>
+    <div class="recent-news">
+      <img src="17.jpeg" style="cursor:pointer;">
+      <p style="font-size:small;font-weight: bold;cursor: pointer;"><span style="font-size: xx-small;font-weight: normal;">RICHARD L. HASEN JUNE 09, 2021 12:02 PM</span><br>
+Stephen Breyer’s Apparent Retirement Plan Will Backfire
+ </p>
+</div>
+    <div class="recent-news">
+      <img src="18.jpeg" style="cursor:pointer;">
+      <p style="font-size:small;font-weight: bold;cursor: pointer;"><span style="font-size: xx-small;font-weight: normal;">ELLIOT HANNON JUNE 09, 2021 8:17 AM</span><br>
+Biden’s Press Plane Gets Grounded Due to an Engine Full of Cicadas </p>
+</div>
+    <div class="recent-news">
+      <img src="19.jpeg" style="cursor:pointer;">
+      <p style="font-size:small;font-weight: bold;cursor: pointer;"><span style="font-size: xx-small;font-weight: normal;">SALETAN JUNE 09, 2021 5:50 AM</span><br>
+Americans Are Dangerously Divided on the Insurrection</p>
+</div>
+    <div class="recent-news">
+      <img src="20.jpeg" style="cursor:pointer;">
+      <p style="font-size:small;font-weight: bold;cursor: pointer;"> <span style="font-size: xx-small;font-weight: normal;">WHAT NEXT JUNE 09, 2021 5:00 AM </span><br>
+Does NYC Want a Cop for a Mayor?</p>
+</div>
+    <div class="recent-news">
+      <img src="21.jpeg" style="cursor:pointer;">
+      <p style="font-size:small;font-weight: bold;cursor: pointer;"><span style="font-size: xx-small;font-weight: normal;">JIM NEWELL JUNE 08, 2021 5:45 PM</span><br>
+Democrats Have No Idea What to Do About Joe Manchin</p>
+</div>
+  </div>
+    </div>
+</div>
+<hr style="display: block;  margin-start: auto; margin-end: auto; border-width: 3px;margin-top: 50px;">
+</div>
+<footer class="footer"  style="margin-top:40px;">
+  <div class="footer-left">
+    <a class="navbar-brand" href="#" style="color:white;">VISION WEEKLY</a>
+   <p style="font-size:x-small;">Vision Weekly is published by The chrome Group, a  Holdings Company.</p>
+<div class="social">
+<p id="c2">FOLLOW US<i class="fa fa-facebook" id="c1"></i><i class="fa fa-twitter" aria-hidden="true"id="c1"></i><i class="fa fa-instagram" aria-hidden="true"  id="c1"></i></p>
+</div>
+
+</div>
+<ul class="footer-right">
+  <li>
+    <h2>ABOUT</h2>
+    <ul class="box">
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>About Us</li>
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Contact Us</li>
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Contact</li>
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Corrections</li>
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Commenting</li>
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Reprints</li>
+</ul>
+</li>
+
+  <li class="features">
+    <h2>SUBSCRIPTIONS</h2>
+    <ul class="box">
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Subscribe</li>
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Sign In</li>
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Account</li>
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Subscription</li>
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Podcast</li>
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Custom Support</li>
+</ul>
+</li>
+  <li>
+    <h2>ADVERTISING</h2>
+    <ul class="box">
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Site Adversting</li>
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Podcast Adversting</li>
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>AdChoices</li>
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Cookie Prefereces</li>
+
+</ul>
+</li>
+</ul>
+</footer>
+
+</body>
+</html>
+

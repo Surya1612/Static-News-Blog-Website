@@ -1,0 +1,294 @@
+<html>
+  <head>
+    
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<style type="text/css">
+nav ul li{
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+	color: black;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+body{
+  background-color: papayawhip;
+}
+.nav-item a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display:block;
+  height: 3px;
+  left: 50%;
+  background: red;
+  transition: all 0.3s ease-in-out;
+  width: 0;
+}
+.nav-item a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+.fa{
+  color: grey;
+  font-size:22px;
+  margin-top: 5px;
+
+}
+
+.fa-facebook:hover {
+  opacity: 0.7;
+  color: blue;
+}
+.fa-instagram:hover {
+  opacity: 0.7;
+  color: #8a3ab9;
+}
+.fa-twitter:hover {
+  opacity: 0.7;
+  color: deepskyblue;
+}
+#c1{
+  margin-left: 15px;
+   cursor: pointer;
+}
+#c2{
+  margin-right: 100px;
+  color: grey;
+  font-size: xx-small;
+}
+.signup-btn{
+     background-color: blue;
+     color: white;
+     width: 70%;
+     height: 40px;
+     margin-left: 50px;
+     margin-top:20px;
+  }
+  .signup-btn:hover{
+      background: #2c4893;
+      cursor: pointer;
+  }
+
+footer{
+  display:-webkit-flex;
+  display:-moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 50px;
+  color: #fff;
+  background-color: #011c39;
+}
+
+.footer-left{
+  margin-right: 1.25em;
+  margin-bottom: 2em;
+}
+footer h2{
+  font-weight: 600;
+  font-size: 17px;
+}
+.footer ul{
+  list-style: none;
+  padding-left: 0;
+}
+.footer li{
+  line-height: 2em;
+}
+
+.footer-right{
+    display:-webkit-flex;
+  display:-moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-flow: row wrap;
+}
+.footer-right > *{
+  flex: 1 50px;
+  margin-right: 1em;
+}
+
+.footer-bottom{
+  text-align: center;
+  color: #999;
+  padding-top: 50px;
+}
+.footer-left{
+  padding-right: 20%;
+  color: #999;
+}
+
+  .footer-left{
+    flex: 1 0px;
+  }
+  .footer-right{
+    flex: 2 0px;
+  }
+
+</style>
+</head>
+<body>
+  <header style="background-color: white; height: 40px;">
+      <div class="row">
+        <div class="col">
+    <h6 style="margin-top:5px;margin-left: 200px; color: red;text-shadow: 2px 2px 2px #CCCCCC;font-size:18px;">NOTABLE  :<p style="display: inline;color: grey;margin-left: 20px;text-shadow: none;font-size: xx-small;cursor: pointer;">Joe Manchin</p>
+
+       <p style="display: inline;color: grey;margin-left: 20px;text-shadow: none;font-size: xx-small;cursor: pointer;">Zyklon B</p>
+
+       <p style="display: inline;color: grey;margin-left: 20px;text-shadow: none;font-size: xx-small;cursor: pointer;">Pose</p>
+
+       <p style="display: inline;color: grey;margin-left: 20px;text-shadow: none;font-size: xx-small;-small;cursor: pointer;">NYC Mayor</p>
+
+       <p style="display: inline;color: grey;margin-left: 20px;text-shadow: none;font-size: xx-small;-small;cursor: pointer;">Beekeeper TikTok</p>
+
+       <p style="display: inline;color: grey;margin-left: 20px;text-shadow: none;font-size:xx-small;-small;cursor: pointer;">El Salvado</p>
+
+       <p style="display: inline;color: grey;margin-left: 20px;text-shadow: none;font-size: xx-small;-small;cursor: pointer;">El Salvado</p>
+
+       <p  style="display: inline;color: grey;margin-left: 20px;text-shadow: none;font-size: x-small;-small;cursor: pointer;margin-left:90px;color: red;" >Subscribe</p>
+       
+        <p style="display: inline;color: grey;margin-left: 20px;text-shadow: none;font-size: x-small;-small;cursor: pointer;color: black;"><a href="login.html">Sign In</a></p></h6>
+  
+
+  </div>
+</div>
+    </header>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background: #2c3e50;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">VISION WEEKLY</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav" >
+       <li id="c1" class="nav-item" >
+          <a class="nav-link " aria-current="page" href="news.html"style="color: white;"  >News & Politics</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="culture.html" style="color: white;">Culture</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tech.html" style="color: white;">Technology</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="buss.html" style="color: white;">Bussiness</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="human.html" style="color: white;">Human Interest</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pod.html" style="color: white;" >Podcasts</a>
+        </li>
+
+      </ul>
+  <div class="form-outline">
+    <input type="search" id="form1" class="form-control" placeholder="search"  style="height: 25px;width: 130px;margin-top: 5px;font-size: x-small;margin-left: 10px;" />
+    <label class="form-label" for="form1">Search</label>
+  </div>
+  <button type="button" class="btn btn-default" style="margin-bottom: 40px;width: 40px;height: 35px;"><i class="fa fa-search" style="color: white;font-size: 16px;margin-bottom: 5px;"></i></button>
+</div>
+    </div>
+</nav>
+
+
+<header style="background-color: white;">
+  <div class="row">
+    <div class="col">
+<p style="font-style: italic;font-size: xx-small;margin-top: 10px;margin-left: 10px;cursor: pointer;">LOOKING FOR SOMEONE TO STING</p>
+</div>
+
+<div class="col" style="margin-left: 500px;margin-top: 10px;">
+<p id="c2">FOLLOW US<i class="fa fa-facebook" id="c1"></i><i class="fa fa-twitter" aria-hidden="true"id="c1"></i><i class="fa fa-instagram" aria-hidden="true"  id="c1"></i></p>
+</div>
+</div>
+</header>
+
+<h5 style="text-align: center;margin-top: 30px;font-weight: bolder;font-family: Georgia, serif;font-size: x-large;">KEEP READING,KEEP LISTENING</h5>
+<h3 style="text-align:center;font-family: Georgia, serif;font-weight: bolder;font-size: x-large;">SUBSCRIBE TODAY.</h3>
+<h5 style="text-align:center;font-weight:normal;font-family:arial ;">Thank you for supporting vision journalism.You can Cancel Anytime.</h5>
+
+
+<div class="container">
+<div class="box" style="width: 400px;height: 510px;border: 1px solid black;margin-top: 40px;margin-left: 360px;">
+<h6 style="font-size:small;font-weight: normal;text-align: center;margin-top: 10px;">Annual $65/year</h6>
+<p style="font-size:large;font-weight: bolder;text-align: center;">Try Your First Month For $1</p>
+<p style="font-size:small;text-align: center;font-weight: bold;">Renews at $65/year</p>
+<ul class="hel">
+  <li style="font-family: cursive;">Enjoy Unlimited article on vision.com</li>
+    <li style="margin-top:10px;font-family: cursive;">Remove ads that interrupt reading</li>
+     <li style="margin-top:10px;font-family: cursive;">listen to over 30 vision podcasts free</li>
+      <li style="margin-top:10px;font-family: cursive;">Enjoy bonus episodes and segments on your favaroite shows</li>
+       <li style="margin-top:10px;font-family: cursive;">Exclusive Subscriber only weekly news letter</li>
+     </ul>
+     <button class="signup-btn" type="submit" style="justify-content: center;margin-bottom: 10px;" >Subscribe for $1</button>
+</div>
+
+</div>
+<p style="font-size:14px;text-align: center;margin-top: 10px;">You will be charged $1 for your first trail month</p>
+<p style="font-size:14px;text-align: center;">You will be charged $59 per year after your first trail <br> month.you may change or cancel your subscrption at<br> any time.</p>
+
+
+
+
+
+
+<footer class="footer"  style="margin-top:40px;">
+  <div class="footer-left">
+    <a class="navbar-brand" href="#" style="color:white;">VISION WEEKLY</a>
+    <p style="font-size:x-small;">Vision Weekly is published by The chrome Group, a  Holdings Company.</p>
+<div class="social">
+<p id="c2">FOLLOW US<i class="fa fa-facebook" id="c1"></i><i class="fa fa-twitter" aria-hidden="true"id="c1"></i><i class="fa fa-instagram" aria-hidden="true"  id="c1"></i></p>
+</div>
+
+</div>
+<ul class="footer-right">
+  <li>
+    <h2>ABOUT</h2>
+    <ul class="box">
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>About Us</li>
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Contact Us</li>
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Contact</li>
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Corrections</li>
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Commenting</li>
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Reprints</li>
+</ul>
+</li>
+
+  <li class="features">
+    <h2>SUBSCRIPTIONS</h2>
+    <ul class="box">
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Subscribe</li>
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Sign In</li>
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Account</li>
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Subscription</li>
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Podcast</li>
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Custom Support</li>
+</ul>
+</li>
+  <li>
+    <h2>ADVERTISING</h2>
+    <ul class="box">
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Site Adversting</li>
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Podcast Adversting</li>
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>AdChoices</li>
+      <li style="font-size:x-small;cursor: pointer;"><a href="#"></a>Cookie Prefereces</li>
+
+</ul>
+</li>
+</ul>
+
+</footer>
+
+
+</body>
+</html>
